@@ -1,4 +1,4 @@
-public class ejerciciosArray {
+public class EjerciciosArray {
     public static void main(String[] args) {
         ejArray();
     }
