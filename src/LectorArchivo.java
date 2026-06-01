@@ -9,11 +9,12 @@ public class LectorArchivo {
     }
 
 
-        public static void leerArchivo () {
+    public static void leerArchivo() {
+
 
             try {
                 File archivo = new File("datos.txt");
-                 Scanner sc = new Scanner(archivo); // creamos un scanner que puede leer un archivo.
+                Scanner sc = new Scanner(archivo); // creamos un scanner que puede leer un archivo.
 
                 while (sc.hasNextLine()) { // Mientras tenga contenido.
                     System.out.println(sc.nextLine()); // se muestra o lee.
