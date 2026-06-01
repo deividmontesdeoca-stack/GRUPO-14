@@ -1,4 +1,4 @@
-public class Login {
+public class ValidarUsuario {
 
     public static void validarUsuario(String usuario) throws Exception {
 

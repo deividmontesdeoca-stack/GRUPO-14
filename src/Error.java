@@ -1,4 +1,4 @@
-public class error {
+public class Error {
     public static void main(String [] args){
         main(args);
     }

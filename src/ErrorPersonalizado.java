@@ -1,15 +1,15 @@
-public class errorPersonalizadobas {
+public class ErrorPersonalizado {
     public static void main(String[] args) {
         try {
             Edad(19);
-        } catch (edadInvalida e) {
+        } catch (EdadInvalida e) {
             System.out.println(e.getMessage());
         }
     }
 
-    public static void Edad(int edad) throws edadInvalida{
+    public static void Edad(int edad) throws EdadInvalida {
         if(edad <=18){
-          throw new edadInvalida("Edad invalida");
+          throw new EdadInvalida("Edad invalida");
         }
         System.out.println("Valida");
     }
